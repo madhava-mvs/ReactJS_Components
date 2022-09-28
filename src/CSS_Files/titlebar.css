@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.top{
+    background-color: #FAFBFC;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bagSquare{
+    background-color: white;
+    width: 10%;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_col1{
+    width: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_col1 label,
+.top_col21 label{
+    font-size: 14px;
+    color: #7C8AA5;
+}
+.top_col2{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.top_col21{
+    background-color: white;
+    width: 26%;
+    display: flex;
+    align-items: center;
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: 1px solid #7C8AA5;
+}
+.top_col22{
+    background-color: #8833FF;
+    width: 26%;
+    display: flex;
+    align-items: center;
+    padding: 7px 30px;
+    border-radius: 20px;
+}
+.top_col21 label,
+.top_col22 label
+{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.top_col22 label{
+    color: #e5e5e5;
+}
+.bagIcon,
+.plusIcon{
+    color: #C3CAD9;
+}
+.downloadIcon{
+    color: rgb(113, 183, 183);
+    font-weight: 100;
+}
