@@ -1,4 +1,4 @@
-import "./CSS_Files/titlebar.css";
+import "./titlebar.css";
 import { GiBeachBag } from "react-icons/gi";
 import { HiDownload } from "react-icons/hi";
 import { BsFillPlusCircleFill } from "react-icons/bs";
@@ -6,20 +6,20 @@ import { BsFillPlusCircleFill } from "react-icons/bs";
 export default function TitleBar() {
   return (
     <>
-      <div className="top">
-        <div className="top_col1">
-          <div className="bagSquare">
-            <GiBeachBag className="bagIcon" />
+      <div className="titlebar_top">
+        <div className="titlebar_top_col1">
+          <div className="titlebar_bagSquare">
+            <GiBeachBag className="titlebar_bagIcon" />
           </div>
           <label>LeadList</label>
         </div>
-        <div className="top_col2">
-            <div className="top_col21">
-                <HiDownload className="downloadIcon"/>
+        <div className="titlebar_top_col2">
+            <div className="titlebar_top_col21">
+                <HiDownload className="titlebar_downloadIcon"/>
                 <label>Bulk Import</label>
             </div>
-            <div className="top_col22">
-                <BsFillPlusCircleFill className="plusIcon" />
+            <div className="titlebar_top_col22">
+                <BsFillPlusCircleFill className="titlebar_plusIcon" />
                 <label>Add Lead</label>
             </div>
         </div>
